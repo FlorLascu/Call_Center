@@ -30,7 +30,6 @@ El dataset consta de 17 columnas:<br>
    - Hay 6 VRUs (AA01 AL AA06) con 16 lineas a asignar.<br>
    - Hay un total de 65 lineas<br>
    - Cada llamada es asignada a un **numero de VRU** + **un numero de linea**<br>
-     ![Alt text](image.png)
      <br>
 
 2. **Call_id** = 5 digitos<br>

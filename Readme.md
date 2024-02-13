@@ -10,7 +10,7 @@
 - Mejorar la satisfacción del cliente, cumpliendo los SLA comprometidos.
 - Desarrollar una herramienta para la gestión y la toma de decisiones a los managers del Call Center.
 
-Con este objetivo fue que se procedera a construir y presentar un Dashboard que permita:
+Con este objetivo fue que se procederá a construir y presentar un Dashboard que permita:
 
 - Medir los niveles de calidad de servicio
 - Medir la eficiencia del Call Center
@@ -18,9 +18,9 @@ Con este objetivo fue que se procedera a construir y presentar un Dashboard que 
 
 Los principales archivos que ilustran el proceso realizado son:
 
-- En [dataset_EDA](dataset_EDA.ipynb) se explica y muestra como se realizó la carga de los datos proporcionados para luego proceder a la limpieza y análisis exploratorio de cada una de las variables. En el mismo, tambien se detallan todos los pasos que se realizó para la limpieza y para el _Análisis Exploratorio_ de cada una de las variables. Este paso decidimos realizarlo en python, el detalle se encuentra en este archivo con sus conlusiones.
+- En [dataset_EDA](dataset_EDA.ipynb) se explica y muestra como se realizó la carga de los datos proporcionados para luego proceder a la limpieza y análisis exploratorio de cada una de las variables. En el mismo, también se detallan todos los pasos que se realizó para la limpieza y para el _Análisis Exploratorio_ de cada una de las variables. Este paso decidimos realizarlo en python, el detalle se encuentra en este archivo con sus conlusiones.
 
-- En el documento [Diccionario_data](Diccionario_data.md) se describen los detalles del negocio y de cada una de las variables del conjunto de datos, en su analisis preliminar.
+- En el documento [Diccionario_data](Diccionario_data.md) se describen los detalles del negocio y de cada una de las variables del conjunto de datos, en su análisis preliminar.
 - En el documento [Analisis](Analisis.ipynb) se resumen los resultados encontrados en el Análsis Exploratorio de los datos y se responden a las preguntas de negocio originales presentadas por los interesados del Banco.
 
 Complementariamente:

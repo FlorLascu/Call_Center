@@ -18,20 +18,14 @@ import seaborn as sns
 
 ### El dataset contiene 444448 registros **sin valores nulos**
 
-![alt text](image-10.png)
-
 El dataset esta compuesto por:
 <resumen sintetico>
-
-![alt text](image-11.png)
 
 Utilizando Data Wrangler profundizamos el analisis exploratorio de cada columna, su informacion, oportunidades y sugerencias.
 
 # Variables e informacion del dataset
 
 ## 1. vru.line
-
-![Alt text](image-2.png)<br>
 
 - En esta columna se designa el VRU que atiende la llamada, es unico para cada call_id <br>
 - Pero hay 6 VRU con capacidad para asignar lineas del 1 al 16.<br>
@@ -46,8 +40,6 @@ Utilizando Data Wrangler profundizamos el analisis exploratorio de cada columna,
 
 ## 2. call_id
 
-![Alt text](image-3.png)
-
 - Es la identificacion que se le asigna a cada llamada entrante. <br>
 - Vemos que en el dataset existen 444.443 registros, pero solo hay 54.472 call_id.<br>
   **El VRU designa este numero, pero se puede ver que el mismo numero corresponde a llamadas diferentes en momentos diferentes** <br>
@@ -60,8 +52,6 @@ Utilizando Data Wrangler profundizamos el analisis exploratorio de cada columna,
 - Otra alternativa es combinar **call_id + vru.line** para identificar cada registro <br>
 
 ## 3. customer_id
-
-![Alt text](image-6.png)
 
 - Tiene el **53% de los valores es cero** = 234.552 registros de un total de 444.443 <br>
 
@@ -78,14 +68,11 @@ Utilizando Data Wrangler profundizamos el analisis exploratorio de cada columna,
   Se han recibido **220.171 llamados de clientes regulares que no fueron identificados al momento de ingresar en el call_center**.<br>
 
 - **Limpieza**<br>
-  ![Alt text](image-7.png)
   1.  Tenemos valores guardados como floats, corregimos el datatype. <br>
   2.  Vamos a identificar los Prospectos de Clientes como **'ProspectCust'= 999999999999**<br>
   3.  Todos las llamadas que corresponden a clientes regulares y prioritarios sin identificar los vamos designar como **'CustNotId'= 0**<br>
 
 # 4. priority
-
-![Alt text](image-8.png)
 
 - Todos los clientes deberian ser identificados y acorde al servicio, asignada una prioridad. Al ser defectuoso el proceso de identificacion de los clientes, la asignacion de prioridades tambien esta funcionando o seteada con fallas.<br>
 
@@ -134,7 +121,6 @@ Analizando la frecuencia y cantidad de llamadas por mes, podemos ver que la cant
 
 # 13. outcome
 
-![Alt text](image-9.png)
 Hay 3 posibilidades de resolucion de una llamada:<br>
 
 1.  **AGENT** = que corresponde a los llamados atendidos por los agentes del call center, son el **79% de las llamadas**
