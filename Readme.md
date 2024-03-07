@@ -27,3 +27,4 @@ Complementariamente:
 
 > 1. Se presenta un **Dashboard interactivo** con las principales métricas y gráficos que permiten hacer el seguimiento de la calida de atención del Call Center.
 > 2. Se presentan las conclusiones y propuestas finales derivadas del trabajo en [Resumen Ejecutivo](Resumen_Ejecutivo.ipynb).
+>    ![Dashboard](Dashboard_Call_Center_Anonymus_Bank.jpg)
